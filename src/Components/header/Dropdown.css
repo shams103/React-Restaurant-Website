@@ -1,0 +1,39 @@
+.services-submenu {
+    width: 20rem;
+    list-style: none;
+    text-align: start; 
+    background: rgb(56, 55, 55);
+  }
+  
+  .services-submenu li {
+    padding: 1rem;
+    padding-left: 3rem;
+    cursor: pointer;
+    border-bottom: 0.01rem solid rgba(17, 17, 17, 0.3);
+  }
+  .services-submenu li a{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem; 
+  }
+  
+  .services-submenu li a:hover {
+    color: rgb(221, 91, 52);
+  } 
+  
+
+
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+

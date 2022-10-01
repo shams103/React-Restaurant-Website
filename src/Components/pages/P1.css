@@ -1,0 +1,53 @@
+.imageFirst {
+    height: 65rem; 
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    
+  }
+  .imageFirst img{
+    position: absolute;
+    width: 100%;
+    height: 100%;     
+  }
+  
+  
+  .imageFirst::after{
+    content:" ";
+     display:block;
+     height: 45px;
+     background-image:url('../../Images/torn-border2.png');
+     position:absolute;
+     bottom:-15px;
+     width:300%;
+     left:-500px; 
+  }
+  
+.Toptext{
+    position: absolute;
+    text-align: center;
+    color: #000;
+    width: 100%;
+    bottom: 40%;
+    
+    }
+  .Toptext h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-family: 'Indie Flower', cursive;
+    
+    }
+
+
+
+  @media screen and (max-width: 500px) {
+    .Toptext h1{
+      font-size: 4rem;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .Toptext h1{
+      font-size: 3.5rem;
+    }
+  }

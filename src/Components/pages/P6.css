@@ -1,0 +1,64 @@
+.boxContact{
+    height: 22rem;
+    background: #eee;
+    position: relative;
+    border: 0.05rem solid #ccc;
+    padding: 0.4rem;;
+}
+.boxContact span{
+    position: absolute;
+    width: 7rem;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+    background:rgb(221, 91, 52);
+    border-radius: 18px 50px 150px 150px / 0px 0px 120px 120px;
+    left: 0;
+    right: 0;
+    top: -0.6rem;
+    margin: auto auto;
+}
+ .boxContact span i{
+     font-size: 1.7rem;
+}
+ .boxContact .inner-box{
+    border: 1px dashed rgb(122, 122, 122); 
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 1rem 4rem 0.2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  
+ 
+    
+}
+ .boxContact .inner-box h2{
+    font-size: 2.5rem;
+    font-weight: 350;
+    text-transform: uppercase;
+}
+ .boxContact .inner-box p{
+    font-size: 1.5rem;
+}
+
+.tit{
+    padding-top: 0.4rem;
+}
+
+
+
+@media screen and (min-width: 500px) and (max-width: 650px) {
+    .boxContact .inner-box h2{
+        font-size: 2rem;
+       
+    }
+     .boxContact .inner-box p{
+        font-size: 1.2rem;
+    }
+    
+}

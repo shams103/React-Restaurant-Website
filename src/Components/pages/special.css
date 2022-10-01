@@ -1,0 +1,12 @@
+.special{
+    
+    margin: 5rem auto;
+}
+
+.special .chefRecom .chefText{
+    background-color: #cf8c4a;
+}
+
+.special .chefRecom .chefText .chefTextinner{
+    border: 1.9px dashed #8d5925;
+}

@@ -1,0 +1,85 @@
+.registerAcc{
+  padding: 8rem 10rem;
+  position: relative;
+}
+
+.registerAcc .box form{
+ 
+    display: flex;
+    flex-direction: column;
+}
+.registerAcc .box form input{
+    padding: 1.2rem;
+    margin: 0.5rem 0;
+    font-size: 1.6rem;
+    outline: none;
+    border: 0.05rem solid rgb(126, 122, 122);
+    border-radius: 0.3rem;
+    
+  
+}
+.registerAcc .box h2{
+    font-weight: 400;
+    font-size: 3rem;
+    margin: 2rem 0;
+    text-transform: uppercase;
+
+}
+
+
+.registerAcc .btnregisterAcc{
+    border: 2px solid red;
+    width: fit-content;
+    margin: 2rem 0;
+    padding: 1.5rem 5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    background: #000;
+    color: #eee;
+    cursor: pointer;  
+    border: none; 
+
+}
+
+.registerAcc .btnregisterAcc:hover{
+  
+    background: rgb(221, 91, 52);
+}
+
+.btnCart{
+    
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    padding: 1.5rem 1rem;
+    font-size: 1.5rem;
+    background: #000;
+    cursor: pointer;  
+    border: none; 
+
+}
+.btnCart a{
+    color: #eee;
+    text-transform: uppercase;
+
+}
+.btnCart:hover span{
+    color: rgb(221, 91, 52);
+}
+
+.btnCart i{
+    width: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.toast-message{
+    margin-top: 4rem;
+  }
+
+@media screen and (max-width: 500px) {
+    .registerAcc{
+        padding: 8rem 5rem;
+    }
+    
+}

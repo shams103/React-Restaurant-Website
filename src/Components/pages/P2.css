@@ -1,0 +1,74 @@
+.Chefbox {
+    text-align: center;
+    height: 42rem;
+    display: flex;
+    flex-direction: column;
+   
+  }
+ 
+  .Chefbox:hover  .chefPic {
+    transform: translateY(-20px);
+
+  }
+  .Chefbox:hover .chefText{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+  }
+  .Chefbox .chefPic{
+    height: 20rem;
+    padding: 0 0.7rem;
+    position: relative;
+    z-index: -1;
+    
+  }
+  .Chefbox .chefPic img{
+    height: 112%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .Chefbox .chefPic span{
+    position: absolute;
+    background: rgb(44, 44, 44);
+    top: 0.5rem;
+    right: 0;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    font-size: 1.4rem;
+
+  }
+
+  .Chefbox  .chefText{
+    padding: 0.8rem;
+    background-color: #eee;
+     
+  }
+  .Chefbox  .chefText .chefTextinner{
+    border: 1.9px dashed rgb(170, 169, 169);
+    padding: 3rem 2rem;
+  
+  }
+  .Chefbox  .chefText .chefTextinner h2{
+    margin: 1rem;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  .Chefbox  .chefText .chefTextinner p{
+    margin: 1rem 0 2rem;
+    font-size: 1.2rem;
+  }
+
+  .chefBtn{
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 4rem;
+    border-bottom: 2px solid rgb(221, 91, 52);
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+    color: rgb(221, 91, 52);
+      
+  }

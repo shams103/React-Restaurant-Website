@@ -1,0 +1,79 @@
+.dishType{
+    margin: 8rem 0;
+    height: 50rem;
+}
+.dishType .itzpic{
+    height: 100%;
+    position: relative;
+
+}
+.dishType .itzpic img{
+    width: 100%;
+    height: 100%;
+    
+ 
+}
+.dishType .itztext{
+    position: absolute;
+    padding: 4rem;
+    width: 60%;
+    height: 50%;
+    text-align: center;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #fff;
+    text-transform: uppercase;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+
+.dishType .itztext h2{
+    margin: 0 auto;
+    padding: 0 2rem;
+    width: fit-content;
+    font-size: 4rem;
+    font-weight: 300;
+    border-top: 0.1rem solid #000;
+    border-bottom: 0.1rem solid #000;
+    margin-bottom: 3rem;
+    
+}
+.dishType .itztext p{
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .dishType .itztext{
+        width: 70%;
+    }
+    .dishType .itztext h2{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dishType .itztext h2{
+        font-size: 2.6rem;
+    }
+    .dishType .itztext p{
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .dishType .itztext{
+        width: 80%;
+    }
+    .dishType .itztext h2{
+        font-size: 2.6rem;
+    }
+    .dishType .itztext p{
+        font-size: 1rem;
+    }
+    
+}
+

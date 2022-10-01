@@ -1,0 +1,59 @@
+.randDish .box{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+   
+  }
+  .randDish .box .dishPic{
+    width: 12rem;
+    height: 12rem;
+    
+  }
+  .randDish .box .dishPic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 150px 112px 143px / 0px 150px 117px 147px;
+  }
+
+  .randDish .box .dishPic img:hover{
+    border-radius: 150px 0px 143px 112px / 150px 0px 147px 117px;
+  }
+  
+
+  .randDish .box .dishText{
+    color: rgb(53, 53, 53);
+    width: 70%;
+    margin: 1rem 2.5rem;
+    
+  }
+
+  .randDish  .box .dishText h2{
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    
+  }
+  .randDish  .box .dishText p{
+    font-size: 1.2rem;
+  }
+  .randDish  .box .dishPrice{
+  
+    color:  rgb(221, 91, 52);
+    padding-top: 0.7rem;
+ 
+  }
+  .randDish  .box .dishPrice h3{
+    font-size: 2.2rem;
+    font-weight: 400;
+
+  }
+
+
+
+  @media screen and (max-width: 400px) {
+  .randDish .box .dishText{
+  
+    margin: 1rem 2.2rem 2.5rem 1rem;
+    
+  }
+}

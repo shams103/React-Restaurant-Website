@@ -1,0 +1,36 @@
+.Cart .CartBox{
+    border: 2px solid rgb(25, 119, 88);
+    margin: 5rem 0;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.Cart h2{
+    padding: 4rem;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #002;
+   
+}
+
+.Cart .btnCartA{
+    margin-bottom: 4rem;
+    padding: 1.5rem 1rem;
+    font-size: 1.5rem;
+    background: #000;
+    cursor: pointer;  
+    border: none; 
+
+}
+.Cart .btnCartA a{
+    color: #eee;
+    text-transform: uppercase;
+
+}
+.Cart .btnCartA:hover span{
+    color: rgb(221, 91, 52);
+}
+
+.Cart .btnCartA i{
+    width: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

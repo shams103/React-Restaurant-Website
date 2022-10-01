@@ -1,0 +1,90 @@
+.tableReserve .grid3{
+    gap: 1rem;
+   
+}
+.tableReserve .tbRr2,
+.tableReserve .tbRr1{
+    max-width: 90%;
+    margin: 5rem auto;
+    
+}
+.tableReserve .tbRr1{
+    margin-bottom: 6rem;
+}
+.tableReserve .tbRr1 .box{
+    height: 5rem;
+}
+.tableReserve .tbRr1 .box input,
+.tableReserve .tbRr1 .box select{
+    height: 100%;
+    width: 100%;
+    text-align: start;
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    outline: none;
+    border-radius: 0.4rem;  
+    border: 0.08rem solid rgb(71, 70, 70); 
+    background: #fff;
+}
+
+.tableReserve .tbRr1 .btnBook{
+    width: fit-content;
+    margin: auto auto;
+}
+
+.tableReserve .tbRr1 button{
+ 
+    padding: 1.5rem 5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    background: #000;
+    color: #eee;
+    cursor: pointer;  
+    border: none; 
+    margin: 4rem auto 0;
+
+
+  
+}
+.tableReserve .tbRr1 button:hover{
+    background: rgb(221, 91, 52);
+}
+
+.close{
+   
+    font-size: 2rem;
+    padding: 1.3rem 1rem 1rem;
+}
+
+
+.toast-message{
+    margin-top: 4rem;
+    width: 35rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-top: 14px !important;
+  }
+
+
+
+  @media screen and (max-width: 500px) {
+    .toast-message{
+        width: 30rem;
+        margin: 0 auto;
+    }
+    .tableReserve .grid3{
+        gap: 0.7rem;
+       
+    }  
+  }
+
+  @media screen and (max-width: 800px) {
+    .tbRr2 .grid3{
+        gap: 2rem;
+
+    }
+  }
+
+ 
+ 
+ 
